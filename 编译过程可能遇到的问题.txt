@@ -1,0 +1,100 @@
+Q:fatal error: jpeglib.h: No such file or directory
+
+A:sudo apt-get install libjpeg-dev
+
+
+Q:fatal error: GL/glut.h: No such file or directory
+
+A:sudo apt-get install freeglut3-dev
+
+
+Q:fatal error: libv4l1-videodev.h: No such file or directory
+
+A:sudo apt-get install libv4l-dev
+
+
+Q:fatal error: dc1394/control.h: No such file or directory
+
+A:sudo apt-get install libdc1394-22-dev
+
+
+Q:fatal error: glib.h: No such file or directory
+
+A:sudo apt-get install libglib2.0-dev
+
+
+Q:fatal error: gst/gst.h: No such file or directory
+
+A:sudo apt-get install libgstreamer0.10-dev
+s
+
+Q:fatal error: osg/Config: No such file or directory
+
+A:sudo apt-get install libopenscenegraph-dev
+
+
+
+Q:安装cmake
+
+A:sudo apt-get install cmake
+
+
+Q:在安装opencv前需要安装libgtk2.0-dev
+
+A: sudo apt-get install libgtk2.0-dev
+
+Q:安装opencv(3.2.0)
+
+A: 
+  cd 相关参考资料
+  unzip opencv-3.2.0
+  cd opencv-3.2.0
+  mkdir build && cd build
+  cmake ..
+  make -j4
+  sudo make install
+
+
+
+Q:安装eign3(3.1.0以上)
+
+A:
+  cd 相关参考资料
+  unzip eigen-3.3.4.zip
+  cd eigen-eigen-5a0156e40feb
+  mkdir build && cd build
+  cmake ..
+  make
+  sudo make install
+
+
+Q:安装git
+
+A:sudo apt-get install git
+
+
+
+Q:安装Glew
+
+A:sudo apt-get install libglew-dev
+
+
+
+Q:安装Pangolin
+
+A:
+  git clone https://github.com/stevenlovegrove/Pangolin.git
+  cd Pangolin
+  mkdir build && cd build
+  cmake ..
+  cmake --build .
+
+
+
+
+Q:cannot find -lopencv_imgcodecs
+
+A: 那是因为用的opencv版本不对，用opencv3.2.0就没问题了
+
+
+

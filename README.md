@@ -51,7 +51,7 @@ video0设备作为摄像头），可以使用如下命令查看当前的摄像�
     ![](http://static.zybuluo.com/LiTAOo/wn5t0m8ufphty6jor5a5hpuu/QQ%E5%9B%BE%E7%89%8720180706161706.png)
     如果是笔记本电脑，则Linux系统默认将内置的前置摄像头作为**video0**设备，在电脑正常运行情况下接入USB摄像头，此时的USB摄像头会成为**video1**设备。为了将USB摄像头设置成**video0**设备，可以在电脑关机状态下插入USB摄像头再开机，开机后USB摄像头会被自动设置为**video0**设备。
 5. 程序运行效果截图如下：
-    ![](http://static.zybuluo.com/LiTAOo/ohb42lrpm638gx4ztqsx1o7n/QQ%E5%9B%BE%E7%89%8720180706164012.png)
+    ![](https://litaooooo.github.io/page-examples/extended-tracking.png)
 ### 2.4 程序清理
 在`Extended-Tracking`目录下，输入：
 ```
